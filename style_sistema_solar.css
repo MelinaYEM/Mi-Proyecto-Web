@@ -1,0 +1,42 @@
+body {
+    background-color: black;
+    color: white;
+}
+h1 {
+    text-align: center;
+    font-size: 40px;
+    color: palevioletred;
+}
+li > a {
+    color: yellow;
+}
+a > img {
+    width: 5%;
+}
+h2 {
+    font-size: 30px;
+}
+#mercurio {
+    color: silver;
+}
+#venus {
+    color: tan;
+}
+#tierra {
+    color: thistle;
+}
+#marte {
+    color: wheat;
+}
+#jupiter {
+    color: slategray;
+}
+#saturno {
+    color: rosybrown;
+}
+#urano {
+    color: plum;
+}
+#neptuno {
+    color: powderblue;
+}
