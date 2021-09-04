@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript</title>
+</head>
+<body>
+    <script>
+        let compra = 1000;
+        let edadCliente = 21;
+        if (compra >= 1000 && edadCliente < 21) {
+            descuento = 40;
+            pago = compra * descuento / 100;
+            pago = compra - pago
+        } else if (compra >= 1000 && !(edadCliente < 21)) {
+            descuento = 30;
+            pago = compra * descuento / 100;
+            pago = compra - pago;
+        } else if (compra < 999 || edadCliente > 21 ) {
+            descuento = 10;
+            pago = compra * descuento / 100;
+            pago = compra - pago;
+        }
+        console.log ("Compra= $" + compra);
+        console.log ("Edad del Cliente= " + edadCliente);
+        console.log ("Descuento= " + descuento + "%")
+        console.log ("Pago= $" + pago);
+    </script>
+
+    <header>
+        <h1>Practica JavaScript</h1>
+    </header>
+</body>
+</html>
